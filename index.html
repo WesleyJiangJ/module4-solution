@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 Solution</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/pulse/bootstrap.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid mt-4">
+        <legend>Module 4 - Solution</legend>
+        <div class="form-group">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="name"
+                    placeholder="Please, Write Names into the Array Here!">
+                <button class="btn btn-lg btn-primary" id="button" onclick="nameCheck()">Save in Array</button>
+                <button class="btn btn-lg btn-success" id="button" onclick="showArray()">Show List</button>
+            </div>
+            <p><b>How to use it?</b><br>
+            First write in the input the names that you want to add to the array, then click in the button "Save in Array". <br>
+            Once you finish, click in the button "Show List".
+            </p>
+        </div>
+        <h3>Elements of the Array are: <pre id="push"></pre></h3>
+</body>
+</html>
